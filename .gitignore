@@ -1,0 +1,23 @@
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit logs & cache
+.streamlit/
+
+# Temporary and test reports
+test_reports/
+reports/*.md
+!reports/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
